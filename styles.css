@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(to bottom, #e1d4d4, #d4e1e1);
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}*/
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#output-container {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.algorithm-container {
+  margin-bottom: 20px;
+}
+
+.algorithm-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.result-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.page-faults {
+  background-color: #ff4d4d;
+}
+
+.page-hits {
+  background-color: #4d79ff;
+}
+
+.result-box span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.algorithm-info {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.algorithm-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.algorithm-info p,
+.algorithm-info ul {
+  margin-bottom: 10px;
+}
+
+.algorithm-info ul {
+  padding-left: 20px;
+}
+
+.footer {
+  background-color: #d4e1e1;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
