@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Replacement Algorithm Checker"</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Page Replacement Algorithm Checker</h1>
+      <div class="input-container">
+        <label for="reference-string"><i>Reference String:</i></label>
+        <input
+          type="text"
+          id="reference-string"
+          placeholder="Enter the reference string (e.g., 1 2 3 4)"
+        />
+      </div>
+      <div class="input-container">
+        <label for="frame-size"><i>Frame Size:</i></label>
+        <input
+          type="number"
+          id="frame-size"
+          placeholder="Enter the frame size"
+        />
+      </div>
+      <div class="button-container">
+        <div class="row">
+          <div class="col mb-3">
+            <button onclick="runFIFO()">FIFO Algorithm</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mb-3">
+            <button onclick="runLRU()">LRU Algorithm</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mb-3">
+            <button onclick="runOPT()">OPT Algorithm</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="output-container">
+        <label>Choose Option</label>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2023 Tanvi Kayat</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
