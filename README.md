@@ -11,7 +11,7 @@ Incorporated visualization and simulation of algorithms like LRU and FIFO."
 
 ## ALgorithm Used
 
-- LRU (Least Recently Used):
+- #LRU (Least Recently Used):#
 This algorithm replaces the page that has not been accessed for the longest duration of time.
 It keeps track of the usage history of each page and selects the least recently used page for replacement.
 
