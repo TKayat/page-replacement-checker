@@ -5,7 +5,7 @@ Incorporated visualization and simulation of algorithms like LRU and FIFO."
 
 ## Technologies Used
 
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 
