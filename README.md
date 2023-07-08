@@ -21,4 +21,7 @@ It maintains a queue of pages and when a new page needs to be brought into memor
 
 - **OPT (Optimal Page Replacement):**
 The OPT algorithm is an optimal page replacement algorithm that selects the page that will not be used for the longest duration in the future for replacement.
-It requires knowledge of the future page requests, which is not realistic in practical scenarios. However, in the "Page Replacement Checker" tool, it can be simulated by assuming complete knowledge of future page requests to showcase the optimal page replacement strategy.
+It requires knowledge of the future page requests, which is not realistic in practical scenarios.
+However, in the "Page Replacement Checker" tool, it can be simulated by assuming complete knowledge of future page requests to showcase the optimal page replacement strategy.
+
+## Website Link - https://tkayat.github.io/page-replacement-checker/
